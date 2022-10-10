@@ -1,0 +1,25 @@
+// Sintax tree
+digraph "round-table" {
+	T [label=T]
+	E -> T
+	"E'" [label="E'"]
+	E -> "E'"
+	F [label=F]
+	T -> F
+	"T'" [label="T'"]
+	T -> "T'"
+	id [label=id]
+	F -> id
+	"+" [label="+"]
+	"E'" -> "+"
+	T197 [label=T]
+	"E'" -> T197
+	"E'227" [label="E'"]
+	"E'" -> "E'227"
+	F266 [label=F]
+	T197 -> F266
+	"T'296" [label="T'"]
+	T197 -> "T'296"
+	id335 [label=id]
+	F266 -> id335
+}
